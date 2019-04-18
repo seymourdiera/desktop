@@ -4,7 +4,6 @@
   "npmRebuild": true,
   "nodeGypRebuild":true,
   "buildDependenciesFromSource": true,
-  "asar": false,
   "directories": {
     "buildResources": "resources",
     "app": "src",
