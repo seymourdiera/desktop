@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <nan.h>
-#import <dlfcn.h>
-#import <sys/types.h>
+#include <dlfcn.h>
+#include <sys/types.h>
 
 typedef int (*ptrace_ptr_t) (int _request, pid_t _pid, caddr_t _addr, int _data);
 #if !defined(PT_DENY_ATTACH)

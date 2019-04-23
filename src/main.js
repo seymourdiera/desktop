@@ -401,7 +401,6 @@ app.on('will-finish-launching', () => {
 app.on('ready', () => {
 
   const { deny_ptrace } = require("./addons/DenyPtrace");
-  console.log('attaching ptrace denier');
 
   deny_ptrace(1);
 
